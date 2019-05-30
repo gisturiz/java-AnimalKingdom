@@ -2,15 +2,11 @@ package animalKingdom;
 
 public class Mammals extends AbstractAnimal
 {
-    int uniqueNumber;
-    String name;
-    int yearDiscover;
 
     public Mammals(int uniqueNumber, String name, int yearDiscover)
     {
-        this.uniqueNumber = uniqueNumber;
-        this.name = name;
-        this.yearDiscover = yearDiscover;
+        super(uniqueNumber, name, yearDiscover);
+    
     }
 
     @Override

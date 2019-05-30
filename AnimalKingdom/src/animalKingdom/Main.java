@@ -43,6 +43,9 @@ public class Main
 
      	System.out.println("*** Untouched List ***");
      	System.out.println(myList.toString());
-
+     	System.out.println();
+     	// 1
+     	System.out.println("*** Sorted by Year ***");
+     	myList.sort((a1, a2) -> a1.getYear() - (a2.getYear()));
     }
 }
